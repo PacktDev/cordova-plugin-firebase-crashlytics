@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-firebase-crashlytics" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-firebase-crashlytics" version="1.0.1">
   <name>Cordova Firebase Crashlytics Plugin</name>
   <description>Google Firebase Crashlytics</description>
   <license>MIT</license>
@@ -67,7 +67,7 @@
 
     <podspec>
       <config>
-        <source url="https://github.com/CocoaPods/Specs.git"/>
+          <source url="https://cdn.cocoapods.org/"/>
       </config>
       <pods use-frameworks="true">
         <pod name="Fabric" specs="~> 1.10.2"/>
